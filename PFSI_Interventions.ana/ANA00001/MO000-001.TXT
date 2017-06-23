@@ -1,0 +1,12 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Piece		NFI		nouveau fichier
+Deplacement		NFI		nouveau fichier
+Client		NFI		nouveau fichier
+Facture		NFI		nouveau fichier
+MainOeuvre		NFI		nouveau fichier
+Intervention		NFI		nouveau fichier
+Piece		NWL	Piece (Designation) et Facture (IDPiece)	Nouvelle liaison entre les fichiers Piece (Designation) et Facture (IDPiece)
+Intervention		NWL	Intervention (IDIntervention) et Facture (IDIntervention)	Nouvelle liaison entre les fichiers Intervention (IDIntervention) et Facture (IDIntervention)
+Client		NWL	Client (NomClient) et Facture (NomClient)	Nouvelle liaison entre les fichiers Client (NomClient) et Facture (NomClient)
+MainOeuvre		NWL	MainOeuvre (IDMainOeuvre) et Facture (IDMainOeuvre)	Nouvelle liaison entre les fichiers MainOeuvre (IDMainOeuvre) et Facture (IDMainOeuvre)
+Deplacement		NWL	Deplacement (zone) et Facture (IDDeplacement)	Nouvelle liaison entre les fichiers Deplacement (zone) et Facture (IDDeplacement)
